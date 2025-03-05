@@ -30,3 +30,25 @@ Config.OxyItem = "oxy"
 Config.OxyAmount = 1 -- the amount of items returned
 Config.MaxRuns = 2  --math.random(5, 10) -- random amount of runs before you complete the run
 Config.TBR = math.random(5000, 15000) -- Time between each run in milliseconds
+
+Config.DropOffLocation = {
+    -- vector4(67.46, 3759.93, 39.74, 192.14),
+    -- vector4(1693.98, 3460.74, 37.01, 26.68),
+    -- vector4(1656.05, 4862.07, 41.99, 276.37),
+    -- vector4(710.21, 4183.31, 40.71, 188.52),
+    -- vector4(2419.16, 3737.78, 42.25, 16.06),
+    -- vector4(2393.34, 3320.56, 48.03, 313.71),
+
+
+    vector4(1532.7223, 6329.7910, 24.2959, 70.8775),
+    vector4(3322.4685, 5142.9712, 18.3721, 41.6794),
+    vector4(2490.4810, 3425.2856, 50.1879, 101.1638),
+    vector4(1745.4135, 3017.6042, 63.8577, 354.4006),
+    vector4(972.1368, 3579.0149, 32.3461, 342.9962),
+    vector4(-13.0655, 3197.7207, 40.3945, 54.5086),
+}
+
+-- Opening hours
+Config.EnableOpeningHours = true -- Enable opening hours? If disabled you can always open the pawnshop.
+Config.OpenHour = 9 -- From what hour should the pawnshop be open?
+Config.CloseHour = 21 -- From what hour should the pawnshop be closed?
